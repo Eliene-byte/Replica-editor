@@ -1,0 +1,31 @@
+{
+  "_about": "Marca do clone. Usado por tools/sweep.py e tools/listing.py para garantir que nada do original sobrou no código. avoid = nomes a caçar; domains = domínios a caçar; colors = cores do original a caçar.",
+  "name": "Corte Leve",
+  "avoid": [
+    "DaVinci Resolve",
+    "DaVinci",
+    "Blackmagic",
+    "Fairlight",
+    "Fusion"
+  ],
+  "_avoid_note": "O nome-placeholder do produto ('Replica Editor') saiu da lista de propósito: dentro do app não existe mais nenhuma ocorrência dele ( conferido por grep em apps/, site/ e package.json). As únicas que restam são as URLs públicas do repositório no GitHub (Eliene-byte/Replica-editor), que são o endereço do código e não a identidade do app.",
+  "domains": [
+    "blackmagicdesign.com",
+    "davinciresolve.com"
+  ],
+  "colors": [
+    "#006bff",
+    "#1a1a1a",
+    "#ff0000"
+  ],
+  "palette": {
+    "accent": "#c8f751",
+    "on-accent": "#14180a",
+    "accent-soft": "#2c3a12"
+  },
+  "checks": {
+    "domain.com": "2026-11-11: livre (RDAP Verisign, 404)",
+    "domain.app": "2026-11-11: livre (RDAP Google Registry, 404)",
+    "domain.dev": "2026-11-11: livre (RDAP Google Registry, 404)"
+  }
+}

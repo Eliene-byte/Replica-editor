@@ -1,0 +1,64 @@
+/* Design tokens — Replica Editor
+   Gerado a partir de replica/design/tokens.json (fonte da verdade).
+   Roles, não cores: replica-brand troca os valores aqui e em tokens.json.
+   Regra do alvo fraco: sem webfont, sem sombra difusa, sem gradiente. */
+
+:root {
+  /* cores */
+  --bg: #0f1115;
+  --surface: #161a20;
+  --surface-2: #1d222a;
+  --border: #262c36;
+  --border-input: #626c7a;
+  --text: #e9edf3;
+  --text-muted: #9aa5b4;
+  --accent: #c8f751;
+  --on-accent: #14180a;
+  --accent-soft: #2c3a12;
+  --danger: #ff6b6b;
+  --success: #3ddc97;
+  --warning: #ffd166;
+  --timeline-bg: #0b0d11;
+  --clip-video: #2f3d52;
+  --clip-video-active: #4a6183;
+  --clip-audio: #2c4a3f;
+  --clip-audio-active: #3f6f5c;
+  --wave: #5ec8b5;
+  --playhead: #ff4d6d;
+  --ruler: #7d8695;
+
+  /* tipografia (system-ui: zero download de fonte) */
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --text-xs-size: 11px;   --text-xs-line: 15px;   --text-xs-weight: 500;
+  --text-sm-size: 12px;   --text-sm-line: 16px;   --text-sm-weight: 500;
+  --text-base-size: 13px; --text-base-line: 20px; --text-base-weight: 400;
+  --text-lg-size: 16px;   --text-lg-line: 24px;   --text-lg-weight: 600;
+  --text-xl-size: 20px;   --text-xl-line: 28px;   --text-xl-weight: 600;
+  --text-display-size: 28px; --text-display-line: 34px; --text-display-weight: 700;
+
+  /* espaçamento */
+  --space-0: 0;  --space-1: 2px; --space-2: 4px; --space-3: 8px;
+  --space-4: 12px; --space-5: 16px; --space-6: 24px; --space-7: 32px;
+
+  /* raio */
+  --radius-sm: 3px; --radius-md: 5px; --radius-lg: 8px; --radius-pill: 999px;
+
+  /* sombra */
+  --shadow-card: 0 1px 2px rgba(0,0,0,.4);
+  --shadow-pop: 0 8px 24px rgba(0,0,0,.55);
+
+  /* movimento */
+  --motion-fast: 90ms; --motion-base: 150ms; --motion-ease: cubic-bezier(.2,.8,.2,1);
+
+  /* layout (medido do próprio app, não do original) */
+  --height-topbar: 40px;
+  --height-transport: 36px;
+  --width-inspector: 280px;
+  --width-pool: 240px;
+  --width-audio-mixer: 64px;
+  --height-track: 64px;
+  --height-track-audio: 48px;
+  --height-ruler: 24px;
+}

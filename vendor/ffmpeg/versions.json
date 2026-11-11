@@ -1,0 +1,30 @@
+{
+  "_about": "Fontes dos binários do ffmpeg que o CI baixa e empacota. Fixado por versão: se o upstream publicar um build novo, a checagem de sha256 falha e o CI pede revisão humana em vez de baixar binário trocado.",
+  "build": "autobuild-2026-11-11-12-39",
+  "platforms": {
+    "linux-x64": {
+      "url": "https://github.com/FFmpeg-Builds/FFmpeg-Builds/releases/download/autobuild-2026-11-11-12-39/ffmpeg-N-128790-g9bee1e603c-linux64-gpl.tar.xz",
+      "sha256": "f5752bf3597cbc9fc7a60fe5cea3522797a5ea2493d91cffb6f13e5b4c861233",
+      "type": "tar.xz",
+      "binaries": ["bin/ffmpeg", "bin/ffprobe"]
+    },
+    "win-x64": {
+      "url": "https://github.com/FFmpeg-Builds/FFmpeg-Builds/releases/download/autobuild-2026-11-11-12-39/ffmpeg-N-128790-g9bee1e603c-win64-gpl.zip",
+      "sha256": "2c654c56697e8518e962c8f45c2369608415e24a203878cba225488322153285",
+      "type": "zip",
+      "binaries": ["bin/ffmpeg.exe", "bin/ffprobe.exe"]
+    },
+    "darwin-x64": {
+      "url": "brew",
+      "sha256": null,
+      "type": "brew",
+      "note": "No macOS o CI usa `brew install ffmpeg`: não existe build estático oficial com checksum por release."
+    },
+    "darwin-arm64": {
+      "url": "brew",
+      "sha256": null,
+      "type": "brew",
+      "note": "Idem darwin-x64."
+    }
+  }
+}

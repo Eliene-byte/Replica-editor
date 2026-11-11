@@ -1,0 +1,27 @@
+﻿{
+  "name": "corte-leve",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Editor de video leve, no navegador, para notebooks antigos. Roda local, sem instalar nada.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "node --test --experimental-strip-types \"apps/server/test/*.test.ts\"",
+    "build:web": "node scripts/build-web.mjs",
+    "build:server": "node scripts/build-server.mjs",
+    "build": "npm run build:web && npm run build:server",
+    "start": "node dist/server/index.js",
+    "parity": "python ../.opencode/skills/replica-diff/parity.py replica/features.csv"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "esbuild": "^0.24.2",
+    "typescript": "^5.7.2"
+  }
+}
+

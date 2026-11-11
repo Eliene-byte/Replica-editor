@@ -1,0 +1,60 @@
+feature,area,priority,original,clone,notes
+Criar e abrir projeto,project manager,must,yes,yes,
+Importar media por arraste ou seletor,media,must,yes,yes,
+Organizar media em bins,media,must,yes,partial,Criar bin e mover midia para ele funcionam; subpasta aninhada ainda nao
+Media pool com miniaturas e modo lista,media,must,yes,yes,Grade com miniatura e alternancia para modo lista
+Source viewer com reproducao e barra de busca,viewer,must,yes,yes,Video com transporte marcador de entrada e saida e barra de busca
+Marcar pontos de entrada e saida in/out,viewer,must,yes,yes,
+Timeline multipista com video e audio,timeline,must,yes,yes,
+Inserir e anexar clip na timeline,edit,must,yes,yes,
+Ripple delete com reencaixe automatico,edit,must,yes,yes,
+Trim de borda arrastando,edit,must,yes,yes,
+Trim fino nos modos roll slip e slide,edit,must,yes,partial,Roll slip e slide implementados com os atalhos R Y e U; falta o teste de interacao no navegador
+Razor para dividir clip,edit,must,yes,yes,
+Mover e reordenar clip na timeline,edit,must,yes,yes,
+Undo e redo completos,edit,must,yes,yes,
+Snapping de bordas e playhead,edit,must,yes,yes,
+Reproduzir a timeline com playhead,playback,must,yes,partial,Playhead anima e reproduz o clipe sob o cursor; ainda nao toca varias faixas ao mesmo tempo
+Inspector com transform opacidade velocidade e volume,inspector,must,yes,yes,
+Keyframes de opacidade volume e transform,keyframes,must,yes,partial,Curva editavel em canvas com arrastar ponto e lista de keyframes; falta o teste de arraste
+Ajuste de velocidade do clip,speed,must,yes,yes,
+Exportar video mp4 com preset,deliver,must,yes,yes,
+Fila de render com progresso e log de erro,deliver,must,yes,yes,
+Salvar e reabrir projeto,persistence,must,yes,yes,
+Proxy automatico para hardware fraco,performance,must,yes,yes,
+Atalhos de teclado essenciais,ux,must,yes,yes,
+Media inspector com metadados do arquivo,media,should,yes,partial,A pagina de midia mostra duracao resolucao e presenca de audio
+Mix de audio com volume pan mute e solo,fairlight,should,yes,yes,
+Bins com subpastas aninhadas,media,should,yes,no,
+Transicao cross dissolve entre cortes,transition,should,yes,no,
+Titulos e texto sobreposto,titles,should,yes,no,
+Color page com rodas lift gamma gain e temperatura,color,should,yes,partial,Painel simplificado com elevacao ganho saturacao temperatura e tinta; sem rodas
+Color page com curvas custom,color,should,yes,no,
+Reset dos controles de cor,color,should,yes,yes,
+Marcadores com cor e rotulo na timeline,markers,should,yes,partial,Marcador e criado com atalho; ainda sem edicao de cor e rotulo
+Multi selecao de clip com edicoes em lote,edit,should,yes,yes,Shift clique seleciona varios
+Waveform de audio desenhado na timeline,fairlight,should,yes,no,
+Medidores de nivel VU por faixa,fairlight,should,yes,no,
+Buscar e filtrar midia por nome,media,should,yes,yes,
+Trim por numeros exatos de entrada e saida,viewer,should,yes,partial,Entrada e saida marcadas no visualizador; falta campo numerico no inspetor
+Configuracoes de projeto fps resolucao e caminho de render,settings,should,yes,yes,
+Importacao em lote com varios arquivos,media,could,yes,yes,
+Exportar apenas o audio como wav,deliver,could,yes,yes,
+Exportar frame como imagem png,deliver,could,yes,no,
+Sincronizar audio por forma de onda,media,could,yes,no,
+Timeline vertical para conteudo em retrato,timeline,could,yes,no,
+Ultimos clipes usados em atalho,ux,could,yes,no,
+Presets de export salvos pelo usuario,deliver,could,yes,no,
+Comparacao lado a lado antes e depois,color,could,yes,no,
+Barra de progresso do cache de proxy,performance,could,yes,no,
+Composicao nodal e efeitos 3D da Fusion,fusion,skip,yes,skip,Fusion is a full compositing engine and a GPU class of work
+Edição multicam e source tape com N cameras,multicam,skip,yes,skip,Multicam needs realtime angle sync and is not the core loop
+Collaboration em tempo real e Blackmagic Cloud,collaboration,skip,yes,skip,That is Blackmagic's network and not a rebuildable feature
+RAW e color management por camera e HDR,color,skip,yes,skip,Per camera 32 bit float pipeline is too heavy for the target hardware
+Dolby Atmos e mix imersivo,fairlight,skip,yes,skip,Licensed immersive audio format and heavy DSP
+ResolveFX Neural Engine e Magic Mask,vfx,skip,yes,skip,GPU and model based effects
+Paineis de hardware Color Panel e Speed Editor,hardware,skip,yes,skip,Blackmagic hardware
+Round trip de AAF XML e FCPXML,interoperability,skip,yes,skip,Interoperability with Resolve belongs to Resolve
+Scopes profissionais RGB parade e vectorscope,color,skip,yes,skip,Needs float pipeline to be honest
+Playback de 4K 60fps em tempo real,performance,skip,yes,skip,Target hardware cannot decode it in real time
+Saida SDI e DeckLink,hardware,skip,yes,skip,Proprietary capture hardware

@@ -1,0 +1,16 @@
+{
+  "avoid": ["DaVinci Resolve", "DaVinci", "Blackmagic", "Resolve", "Fairlight", "Fusion"],
+  "app_store": {
+    "name": "Corte Leve: Editor de Vídeo",
+    "subtitle": "Corte e exporte sem instalar",
+    "promotional_text": "Novo: ajuste fino (roll, slip, slide), curva de keyframes e export em mp4, webm e wav. Tudo local, sem conta.",
+    "description": "Corte Leve é um editor de vídeo que roda no navegador e na sua própria máquina.\n\nSem instalação, sem conta, sem nuvem: o vídeo entra no projeto, você corta na timeline e exporta. Se o seu notebook é de 2010, ele ainda dá conta.\n\nO que ele faz bem:\n- Importa vídeo, áudio e imagem direto do seu disco\n- Timeline multipista com corte, ripple delete, lâmina e ajuste fino (roll, slip e slide)\n- Encaixe automático, marcadores e atalhos de teclado\n- Keyframes de opacidade, volume e transformação, com curva editável\n- Cor rápida (elevação, ganho, saturação, temperatura e tinta) e mixagem por faixa\n- Export em mp4 (1080p, 720p, 480p), webm e wav, com fila e log de erro\n\nO que ele NÃO faz: composição em 3D, tracking, correção de cor de estúdio e áudio imersivo. Ele corta e exporta — o resto ele deixa para quem precisa de estúdio completo.\n\nCorte Leve é gratuito e open source (MIT). O ffmpeg vem junto no pacote; a fila de export roda na sua máquina.",
+    "keywords": "video,cortar,montagem,mp4,ffmpeg,offline,proxy,exportar,timeline,gratis,novo,cortes",
+    "whats_new": "Ajuste fino (roll, slip, slide), curva de keyframes, bins com subpastas e modo lista no pool."
+  },
+  "google_play": {
+    "title": "Corte Leve: Editor de Vídeo",
+    "short_description": "Corte e exporte vídeos no navegador, sem instalar nada.",
+    "full_description": "Corte Leve é um editor de vídeo que roda no navegador e na sua própria máquina.\n\nSem instalação, sem conta, sem nuvem: o vídeo entra no projeto, você corta na timeline e exporta. Se o seu notebook é de 2010, ele ainda dá conta.\n\n- Importa vídeo, áudio e imagem do seu disco\n- Timeline multipista com corte, ripple delete e ajuste fino\n- Encaixe automático, marcadores e atalhos de teclado\n- Keyframes com curva editável e mixagem por faixa\n- Export em mp4, webm e wav, com fila e log\n\nGratuito e open source (MIT). O ffmpeg vem no pacote."
+  }
+}
